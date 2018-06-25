@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <com.cheng.textborderview.TextBorderView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        app:Border_Radius="4dp"
+        app:Border_Width="1dp"
+        app:Border_Color="@color/text_blue"
+        android:text="Hello World!"
+        android:textSize="16sp"
+        android:textColor="@color/text_main_dark_gray"/>
+
+    <com.cheng.textborderview.TextBorderView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        app:Background_Color="@color/background_blue"
+        android:text="Hello World!"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+
+    <com.cheng.textborderview.TextBorderView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        app:Background_Color="@color/background_blue"
+        app:Border_Color="@color/deeppink"
+        app:Border_Radius="4dp"
+        app:Border_Width="2dp"
+        android:text="Hello World!"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+
+    <com.cheng.textborderview.TextBorderView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        app:Background_Color="@color/background_blue"
+        app:Background_Select_Color="@color/colorPrimary"
+        app:Border_Color="@color/deeppink"
+        app:Border_Select_Color="@color/red"
+        app:Border_Radius="4dp"
+        app:Border_Width="2dp"
+        android:text="Hello World!"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="TextBorderView">
+        <attr name="Border_Color" format="color" />
+        <attr name="Border_Select_Color" format="color" />
+        <attr name="Background_Color" format="color" />
+        <attr name="Background_Select_Color" format="color" />
+        <attr name="Border_Width" format="dimension" />
+        <attr name="Border_Radius" format="dimension" />
+    </declare-styleable>
+
+</resources>
